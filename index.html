@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="js/vendor/jquery-1.10.2.min.js"></script>
+  <script src="js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <footer>
+    <div class="footer">
+      <div class="f-left">
+        <p>MY PORTFOLIO</p>
+      </div>
+      <div class="f-right">
+        <ul class="f-nav">
+          <li class="f-li">HOME</li>
+          <li class="f-li">ABOUT</li>
+          <li class="f-li">SERVICES</li>
+          <li class="f-li">PORTFOLIO</li>
+          <li class="f-li">CONTACT</li>
+        </ul>
+      </div>
+    </div>
+    <h1 class="f-h1">KOHEI TAKATA</h1>
+  </footer>
+
+  <main>
+    <div class="about">
+      <h2 class="h2 a-h2">About</h2>
+      <div class="a-detail">
+        <div class="a-img"><img src="image/prof1.jpeg"></div>
+        <div class="a-prof">
+          <h3 class="a-prof-h3">Profile</h3>
+          <p class="a-prof-contents">こんにちは、ご訪問いただき、ありがとうございます。<br>
+            WEBエンジニアとして活動しております、高田 光平と申します。<br>
+            WEBサイトの制作や、コーディング、スマホでも見やすいレスポンシブ対応、<br>
+            古くなったWebサイトの更新など、 あらゆる業務に対応しております。<br>
+            WEB制作を通して、みなさまの魅力をお伝えするお手伝いができればと思っております。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills">
+      <h2 class="h2 s-h2">Skills</h2>
+      <div class="s-details">
+        <div class="html">
+          <i class="fab fa-html5 fa-5x fa-fw"></i>
+          <h3>HTML</h3>
+        </div>
+        <div class="css">
+          <i class="fab fa-css3-alt fa-5x fa-fw"></i>
+          <h3>CSS</h3>
+        </div>
+        <div class="javascript">
+          <i class="fab fa-js-square fa-5x fa-fw"></i>
+          <h3>javascript</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <h2 class="h2 p-h2">Portfolio</h2>
+      <h3 class="p-h3">模写サイト</h3>
+      <div class="p-details">
+
+        <div class="p-simplehp">
+          <img class="p-img-simplehp" src="image/simplehp.png">
+          <p class="p-simple title">シンプルなHP</p>
+          <div class="content">
+            <a class="js-modal-open" href="">表示</a>
+          </div>
+          <div class="modal js-modal">
+            <div class="modal__bg js-modal-close"></div>
+            <div class="modal__content">
+              <img class="p-img-simplehp" src="image/simplehp.png">
+              <a class="js-modal-close" href="">閉じる</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-corporatehp">
+          <img class="p-img-corporatehp" src="image/corporate.png">
+          <p class="p-corporate title">シンプルなコーポレートサイト</p>
+          <div class="content">
+            <a class="js-modal-open02" href="">表示</a>
+          </div>
+          <div class="modal js-modal02">
+            <div class="modal__bg js-modal-close02"></div>
+            <div class="modal__content02">
+              <img class="p-img-corporatehp" src="image/corporate.png">
+              <a class="js-modal-close02" href="">閉じる</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h2 class="h2 c-h2">Contact</h2>
+      <form>
+        <p>
+          <label>
+            お名前
+            <input type="text" name="name">
+          </label>
+        </p>
+        <p>
+          <label>
+            E-Mail
+            <input type="email" name="email">
+          </label>
+        </p>
+        <p>
+          <label>
+            お問い合わせ内容
+            <textarea type="contents" name="contents"></textarea>
+          </label>
+        </p>
+        <p class="send"><input type="submit" value="送信"></p>
+      </form>
+    </div>
+      
+  </main>
+  
+</body>
+</html>
